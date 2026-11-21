@@ -9,6 +9,7 @@ from src.backtest import run_sma_backtest
 from src.plots import save_stock_charts
 
 logging.basicConfig(level=logging.INFO, format="%(asctime)s | %(levelname)s | %(message)s")
+logging.getLogger("matplotlib").setLevel(logging.WARNING)  # hide matplotlib INFO noise
 logger = logging.getLogger("stock_analyzer")
 
 
