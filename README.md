@@ -1,5 +1,7 @@
 # Stock Market Data Analyzer
 
+🌐 **Live report:** https://rohitsingh83.github.io/Stock-Market-Data-Analyzer/ · 💻 **Source:** https://github.com/rohitsingh83/Stock-Market-Data-Analyzer
+
 A quantitative stock-analysis toolkit in Python. It downloads price history from **Yahoo Finance**, calculates
 **technical indicators** and **risk metrics**, compares stocks against the **NIFTY 50**, **backtests trading
 strategies**, and finds optimal portfolios with **Modern Portfolio Theory**. Everything is shown in a dark,
@@ -78,7 +80,7 @@ Stock-Market-Data-Analyzer/
 │   └── generate_sample_data.py
 ├── outputs/                  # sample Excel reports and comparison CSV
 ├── images/                   # charts and dashboard screenshots
-├── docs/                     # project explanation, interview Q&A
+├── docs/                     # live report (index.html, GitHub Pages), project explanation, interview Q&A
 ├── tests/test_analyzer.py
 ├── main.py                   # command-line tool
 ├── app.py                    # Streamlit dashboard
